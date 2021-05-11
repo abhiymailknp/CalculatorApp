@@ -1,0 +1,46 @@
+<div class="calculator">
+
+  <div class="base">
+    <div class="maindisplay">
+      <div class="subdisplay">{{ subDisplayText }}</div>
+      {{ mainDisplayText }}
+    </div>
+  </div>
+  <!--
+    <input type="text" class="calculator-screen" [value]="currentNumber" />
+
+  -->
+  <div class="calculator-keys">
+
+    <button type="button" (click)="getOperator('+')" class="operator" value="+">+</button>
+    <button type="button" (click)="getOperator('-')" class="operator" value="-">-</button>
+    <button type="button" (click)="getOperator('*')" class="operator" value="*">&times;</button>
+    <button type="button" (click)="getOperator('/')" class="operator" value="/">&divide;</button>
+
+    <button type="button" (click)="pressKey('7')" value="7">7</button>
+    <button type="button" (click)="pressKey('8')" value="8">8</button>
+    <button type="button" (click)="pressKey('9')" value="9">9</button>
+
+
+    <button type="button" (click)="pressKey('4')" value="4">4</button>
+    <button type="button" (click)="pressKey('5')" value="5">5</button>
+    <button type="button" (click)="pressKey('6')" value="6">6</button>
+
+
+    <button type="button" (click)="pressKey('1')" value="1">1</button>
+    <button type="button" (click)="pressKey('2')" value="2">2</button>
+    <button type="button" (click)="pressKey('3')" value="3">3</button>
+
+
+    <button type="button" (click)="pressKey('0')" value="0">0</button>
+    <!-- [...] -->
+
+
+    <button type="button" (click)="pressKey('.')" class="decimal" value=".">.</button>
+    <button type="button" (click)="allClear()" class="all-clear" value="all-clear">AC</button>
+
+    <button type="button" (click)="getAnswer()" class="equal-sign" value="=">=</button>
+
+
+  </div>
+</div>
