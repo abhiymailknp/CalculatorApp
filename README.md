@@ -1,4 +1,22 @@
+![Screenshot (204)](https://user-images.githubusercontent.com/32055899/122680008-e6e1dd80-d20a-11eb-801e-8bff82e69f9c.png)
+![Screenshot (205)](https://user-images.githubusercontent.com/32055899/122680013-e9dcce00-d20a-11eb-8125-d37ad03a698c.png)
+![Screenshot (206)](https://user-images.githubusercontent.com/32055899/122680014-eba69180-d20a-11eb-9a75-3fb9ebeb3eb5.png)
+![Screenshot (207)](https://user-images.githubusercontent.com/32055899/122680015-ed705500-d20a-11eb-86c6-4439dcb61f2f.png)
+![Screenshot (208)](https://user-images.githubusercontent.com/32055899/122680018-eea18200-d20a-11eb-8cdb-774aee103838.png)
 # CalculatorApp
+
+Build this project in order to understand the flow of Angular Application and learn about the components in Angular.
+
+
+## Challenges
+
+This was the first time I was working with angular so faced quiet common syntax mistakes , debugged and corrected them.
+Also the part where we have to perform operations on already performed calculation was a little challenging . 
+So I will suggest anyone who is starting with a webframework or full stack application using Angular or React should try to built a small app so that they understand basic syntax.
+
+
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0.
 
